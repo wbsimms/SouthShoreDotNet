@@ -44,9 +44,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.CodeGeneration</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Orchard.CodeGeneration/bin/Orchard.CodeGeneration.dll</VirtualPath>
-    <Hash>491710b59944d0dd</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.CodeGeneration/Orchard.CodeGeneration.csproj</VirtualPath>
+    <Hash>23890639e87fe5f4</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Comments</ExtensionId>
@@ -293,6 +293,12 @@
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.Workflows/bin/Orchard.Workflows.dll</VirtualPath>
     <Hash>107a16d00e512f5</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>SouthShoreDotNet</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/SouthShoreDotNet/SouthShoreDotNet.csproj</VirtualPath>
+    <Hash>daa84291960323f3</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>SysCache</ExtensionId>

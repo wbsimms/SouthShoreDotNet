@@ -127,8 +127,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>Orchard.CodeGeneration</ModuleName>
-    <VirtualPath>~/Modules/Orchard.CodeGeneration/bin/Orchard.CodeGeneration.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.CodeGeneration/Orchard.CodeGeneration.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
   <Dependency>
@@ -621,6 +621,12 @@
     <ModuleName>Shapes</ModuleName>
     <VirtualPath>~/Core/Shapes</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>SouthShoreDotNet</ModuleName>
+    <VirtualPath>~/Themes/SouthShoreDotNet/SouthShoreDotNet.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
   <Dependency>
